@@ -19,10 +19,10 @@
     <packaging>atlassian-plugin</packaging>
 
     <properties>
-        <bamboo.version>6.0.0</bamboo.version>
-        <bamboo.data.version>6.0.0</bamboo.data.version>
-        <amps.version>5.0.4</amps.version>
-        <plugin.testrunner.version>1.2.0</plugin.testrunner.version>
+        <bamboo.version>7.0.3</bamboo.version>
+        <bamboo.data.version>7.0.3</bamboo.data.version>
+        <amps.version>6.2.11</amps.version>
+        <plugin.testrunner.version>2.0.2</plugin.testrunner.version>
     </properties>
 
     <dependencies>

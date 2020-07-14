@@ -18,8 +18,7 @@ You can now use it from the **Notifications** tab in your plan configuration.
 At this time, you can't use LDAP accounts and must use RocketChat local accounts.
 
 # Working Versions
-- Bamboo v6.0.0
-- Bamboo v6.1.1
+- Bamboo v7.0.3
 - It might work with other versions and I'll really appreciate that you tell me if it works with your version
 
 # Development
@@ -31,3 +30,9 @@ At this time, you can't use LDAP accounts and must use RocketChat local accounts
 I would like to specially thanks guys from [Sofico](http://www.sofico.be) for sharing their code with the world. Original code can be found here [BitBucket](https://bitbucket.org/sofico/bamboo-sametime-plugin).
 
 This work is a hundred percent derivated from Sofico's code.
+
+# Docker
+docker volume create --name=dot_m2
+docker run -ti --rm --workdir /project -v dot_m2:/root/.m2 -v $PWD:/project softwarecraftsmen/atlassian-plugin-sdk bash -c "atlas-mvn -version"
+
+or other commands
